@@ -52,19 +52,16 @@ microbiome-analysis/
 
 * **Alpha Diversity**
 
-Kruskal-Wallis test:
+Alpha diversity was assessed using four complementary metrics. Statistical comparisons used the Kruskal-Wallis test with FDR correction.
 
-|            Metric        |      H- value    |       p- value      |
-| ------------------------ | ---------------- | --------------------|
-| Shannon                  |      4.98        |      0.08           |
-| Observed Features        |      2.92        |      0.23           |
-| Faith’s PD               |      3.62        |      0.16           |
-| Pielou’s Evenness        |      6.89        |      0.03           |
+|            Metric        |      H- value    |       p- value      |    Mean   |
+| ------------------------ | ---------------- | --------------------|-----------|
+| Shannon                  |      4.98        |      0.08           |    5.12   |
+| Observed Features        |      2.92        |      0.23           |    83.2   |
+| Faith’s PD               |      3.62        |      0.16           |    6.02   |
+| Pielou’s Evenness        |      6.89        |      0.03           |    0.81   |
 
-## Key Insight:
-
-* Species richness remains stable
-* Community evenness significantly changes
+Microbial communities across mock, early, and late groups consist of roughly similar types and numbers of organisms, with no significant differences in richness or phylogenetic diversity. However, their distribution varies significantly, as reflected by changes in evenness, indicating that the transition from early to late stages is associated with shifts in relative abundance—where some taxa become dominant while others decline—rather than the loss or gain of taxa.
 
   
 * **Beta Diversity**
