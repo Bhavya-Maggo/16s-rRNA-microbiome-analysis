@@ -61,8 +61,25 @@ Kruskal-Wallis test:
 | Faith’s PD               |      3.62        |      0.16           |
 | Pielou’s Evenness        |      6.89        |      0.03           |
 
+## Key Insight:
 
+* Species richness remains stable
+* Community evenness significantly changes
 
+  
+* **Beta Diversity**
+📌 Bray–Curtis: Clear separation between Early and Late
+
+Early = high variability
+Late = tightly clustered
+
+📌 Weighted UniFrac: Strong separation based on phylogeny + abundance
+
+Late samples show high stability
+
+📌 Unweighted UniFrac: Differences in taxa presence/absence
+
+Late samples show consistent membership
 
 
 
