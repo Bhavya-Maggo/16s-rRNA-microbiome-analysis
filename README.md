@@ -31,4 +31,58 @@ microbiome-analysis/
 <br>
 ** Pielou’s Evenness
 
+* **Beta Diversity Metrics**
+  
+** Bray–Curtis (abundance-based)
+<br>
+** Weighted UniFrac (abundance + phylogeny)
+<br>
+** Unweighted UniFrac (presence/absence + phylogeny)
+
+* **Tools Used**
+
+** QIIME2
+<br>
+** DADA2
+<br>
+** R (phyloseq, ggplot2)
+
+
+## **Results**
+
+* **Alpha Diversity**
+
+Kruskal-Wallis test:
+
+|            Metric        |      H- value    |       p- value      |
+| ------------------------ | ---------------- | --------------------|
+| Shannon                  |      4.98        |      0.08           |
+| Observed Features        |      2.92        |      0.23           |
+| Faith’s PD               |      3.62        |      0.16           |
+| Pielou’s Evenness        |      6.89        |      0.03           |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
