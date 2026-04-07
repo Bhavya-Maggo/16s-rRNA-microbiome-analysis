@@ -20,7 +20,7 @@ microbiome-analysis/
 
 * **Alpha Diversity Metrics**
 
-* Observed Features (Richness)
-* Shannon Diversity
-* Faith’s Phylogenetic Diversity
-* Pielou’s Evenness
+** Observed Features (Richness)
+** Shannon Diversity
+** Faith’s Phylogenetic Diversity
+** Pielou’s Evenness
