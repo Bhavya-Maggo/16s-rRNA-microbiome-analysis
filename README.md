@@ -10,11 +10,14 @@ The study integrates alpha diversity and beta diversity (PCoA) analyses using mu
 
 ## **Repository Structure**
 
+```bash
 microbiome-analysis/
 ├── data/
 ├── scripts/
 ├── results/
 └── README.md
+
+```
 
 ## **Methods**
 
