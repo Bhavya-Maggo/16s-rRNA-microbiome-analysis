@@ -8,6 +8,7 @@ This repository contains comprehensive analysis of 16S rRNA sequencing data to i
 
 The study integrates alpha diversity and beta diversity (PCoA) analyses using multiple distance metrics.
 
+
 ## **Repository Structure**
 
 ```bash
@@ -18,6 +19,15 @@ microbiome-analysis/
 └── README.md
 
 ```
+
+## Dataset
+
+**Source:** 10x Genomics PBMC 10k dataset 
+<br>
+**Download:** https://mothur.s3.us-east-2.amazonaws.com/wiki/miseqsopdata.zip
+<br>
+**Species:** Mouse
+
 
 ## **Methods**
 
