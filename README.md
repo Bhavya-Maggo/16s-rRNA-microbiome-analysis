@@ -27,7 +27,11 @@ microbiome-analysis/
 **Download:** https://mothur.s3.us-east-2.amazonaws.com/wiki/miseqsopdata.zip
 <br>
 **Species:** Mouse
-
+<br>
+**Download the SILVA 138 classifier:** wget --no-check-certificate \
+    "https://data.qiime2.org/classifiers/sklearn-1.4.2/silva/silva-138-99-nb-classifier.qza" \
+    -O silva-138-99-nb-classifier.qza
+    
 
 ## **Methods**
 
@@ -96,6 +100,11 @@ Beta diversity analysis revealed clear and significant differences in overall co
 ![Unweighted Unifrac Emperor](results/unweighted_unifrac_emperor.png)
  <p align="center"><strong> Unweighted Unifrac Emperor </strong></p>        
 
+
+### Phylogenetic tree
+
+![p_tree](results/p_tree.png)
+<p align="center"><strong> Phylogenetic tree illustrating the evolutionary relationships among the analyzed taxa. Branch lengths represent genetic divergence, and nodes indicate common ancestors. </strong></p> 
 
 ### Bacterial Phyla Composition
 
