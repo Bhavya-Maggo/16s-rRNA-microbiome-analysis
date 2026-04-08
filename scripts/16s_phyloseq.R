@@ -102,7 +102,7 @@ p_tree <- ggtree(tree) +
   ggtitle("Phylogenetic Tree (ASV + Taxonomy)")
 
 ggsave(file.path(out_dir, "p_tree.png"), plot = p_tree,
-       width = 15, height = 30)
+       width = 12, height = 12)
 
 # ─────────────────────────────────────────────
 # Filtering
