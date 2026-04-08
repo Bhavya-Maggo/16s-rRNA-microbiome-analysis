@@ -13,7 +13,6 @@ The study integrates alpha diversity and beta diversity (PCoA) analyses using mu
 
 ```bash
 microbiome-analysis/
-├── data/
 ├── scripts/
 ├── results/
 └── README.md
@@ -22,7 +21,7 @@ microbiome-analysis/
 
 ## Dataset
 
-**Source:** 10x Genomics PBMC 10k dataset 
+**Source:** MiSeq SOP Example Data 
 <br>
 **Download:** https://mothur.s3.us-east-2.amazonaws.com/wiki/miseqsopdata.zip
 <br>
