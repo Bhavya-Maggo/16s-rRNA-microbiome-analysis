@@ -101,10 +101,18 @@ Beta diversity analysis revealed clear and significant differences in overall co
  <p align="center"><strong> Unweighted Unifrac Emperor </strong></p>        
 
 
-### Phylogenetic tree
+### Phylogenetic Tree
 
-![p_tree](results/p_tree.png)
-<p align="center"><strong> Phylogenetic tree illustrating the evolutionary relationships among the analyzed taxa. Branch lengths represent genetic divergence, and nodes indicate common ancestors. </strong></p> 
+<p align="center">
+  <img src="results/p_tree.png" alt="Phylogenetic Tree" width="500"/>
+</p>
+
+<p align="center">
+<strong>
+Phylogenetic tree illustrating the evolutionary relationships among the analyzed taxa. Branch lengths represent genetic divergence, and nodes indicate common ancestors.
+</strong>
+</p>
+
 
 ### Bacterial Phyla Composition
 
