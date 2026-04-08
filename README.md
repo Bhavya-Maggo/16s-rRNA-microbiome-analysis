@@ -87,33 +87,33 @@ Community composition was compared using three distance metrics with PERMANOVA (
 Beta diversity analysis revealed clear and significant differences in overall community composition between groups across all distance metrics. Notably, weighted UniFrac showed the strongest separation, suggesting that changes are primarily driven by shifts in the abundance of phylogenetically related taxa.
 
 ![Bray Curtis Emperor](results/bray_curtis_emperor.png)
-        **Bray Curtis Emperor**
+ <p align="center"> **Bray Curtis Emperor** </p>       
 
 ![Weighted Unifrac Emperor](results/weighted_unifrac_emperor.png)
-        **Weighted Unifrac Emperor**
+<p align="center"> **Weighted Unifrac Emperor** </p> 
 
 ![Unweighted Unifrac Emperor](results/unweighted_unifrac_emperor.png)
-        **Unweighted Unifrac Emperor**
+ <p align="center"> **Unweighted Unifrac Emperor** </p>        
 
 
 ### Bacterial Phyla Composition
 
 ![p_phyla](results/p_phyla.png)
-        **Phyla composition**
+<p align="center">  **Phyla composition** </p>        
 
 Bacteroidota and Firmicutes dominate the community but vary in relative abundance between Early and Late samples. This suggests a temporal restructuring of the microbiome.In the phylum-level bar plot, only two or three phyla are clearly visible because they dominate the microbial community. The remaining phyla are present at very low abundances, making them nearly invisible in the plot.
 
 ### Volcano Plot
 
 ![p_vol](results/p_vol.png)
-        **Volacano plot**
+<p align="center"> **Volacano plot** </p>         
 
 This volcano plot highlights the most significantly changed taxa between groups. The top 5 upregulated taxa (highest positive log2 fold change) and top 5 downregulated taxa (lowest negative log2 fold change) are labeled, providing a clear view of key microbial shifts.
 
 ### Significant Taxa
 
 ![Heatmap](results/heatmap.png)
-        **Heatmap**
+ <p align="center"> **Heatmap** </p>        
 
 This heatmap shows differences in microbial taxa across time points based on DESeq2 results (adjusted p < 0.05, |log2FC| > 1). Some taxa are more abundant in Early samples, while others are higher in Late samples, indicating a shift in community composition over time. This suggests a temporal change in the microbial community structure.
 
