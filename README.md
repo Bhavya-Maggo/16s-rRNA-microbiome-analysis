@@ -68,13 +68,43 @@ Microbial communities across mock, early, and late groups consist of roughly sim
 
 Community composition was compared using three distance metrics with PERMANOVA (999 permutations) to test group-level significance
 
-|            Metric        |      H- value    |       p- value      |    Mean   |
-| ------------------------ | ---------------- | --------------------|-----------|
-| Bray-Curtis              |      4.98        |      0.08           |    5.12   |
-| Weighted UniFrac         |      2.92        |      0.23           |    83.2   |
-| Unweighted UniFrac       |      3.62        |      0.16           |    6.02   |
+|            Metric        |      pseudo-F    |       p- value       |
+| ------------------------ | ---------------- | -------------------- |
+| Bray-Curtis              |      10.06       |      0.001           |   
+| Weighted UniFrac         |      20.44       |      0.002           |    
+| Unweighted UniFrac       |      9.91        |      0.001           |    
 
 Beta diversity analysis revealed clear and significant differences in overall community composition between groups across all distance metrics. Notably, weighted UniFrac showed the strongest separation, suggesting that changes are primarily driven by shifts in the abundance of phylogenetically related taxa.
+
+![Bray Curtis Emperor](results/bray_curtis_emperor.png)
+
+![Weighted Unifrac Emperor.](results/weighted_unifrac_emperor..png)
+
+![Unweighted Unifrac Emperor](results/unweighted_unifrac_emperor.png)
+
+
+### Bacterial Phyla Composition
+
+![p_phyla](results/p_phyla.png)
+
+Bacteroidota and Firmicutes dominate the community but vary in relative abundance between Early and Late samples. This suggests a temporal restructuring of the microbiome.In the phylum-level bar plot, only two or three phyla are clearly visible because they dominate the microbial community. The remaining phyla are present at very low abundances, making them nearly invisible in the plot.
+
+### Volcano Plot
+
+![p_vol](results/p_vol.png)
+
+This volcano plot highlights the most significantly changed taxa between groups. The top 5 upregulated taxa (highest positive log2 fold change) and top 5 downregulated taxa (lowest negative log2 fold change) are labeled, providing a clear view of key microbial shifts.
+
+### Significant Taxa
+
+![Heatmap](results/heatmap.png)
+
+This heatmap shows differences in microbial taxa across time points based on DESeq2 results (adjusted p < 0.05, |log2FC| > 1). Some taxa are more abundant in Early samples, while others are higher in Late samples, indicating a shift in community composition over time. This suggests a temporal change in the microbial community structure.
+
+
+## Conclusion
+
+The microbiome analysis indicates that while the richness and phylogenetic diversity of microbial communities remain largely stable over time, the relative abundances of taxa shift significantly between early and late stages. The transition from early to late stages is marked by reorganization of microbial populations rather than loss or gain of taxa.
 
 
 
